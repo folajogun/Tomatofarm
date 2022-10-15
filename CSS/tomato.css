@@ -1,0 +1,98 @@
+		h1{
+			color:black;
+			text-decoration:underline;
+		}
+		img{
+			width:500;
+			height:600;
+			cursor:col-resize;
+		}
+		p{
+			color:black;
+			text-indent:40px;
+			font-weight:600;
+			line-height:1.5;
+			font-family:cursive;
+		}
+		ul{
+			list-style-type:none;
+		}
+	   .site-nav li{
+	   		display: inline-block;
+	   		margin: 16px 16px 16px 16px;
+	    }
+	    .site-nav ul, .site-nav li{
+	    	margin: 0;
+	    	padding: 0;
+	    }
+	    .site-nav li a::after{
+			content: '';
+			background: red;
+			width:0;
+			height: 2px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			transition: width 0.5s;
+		}
+		.site-nav li a:hover::after{
+			width: 100%;
+		}
+
+	    .site-nav a {
+  			color: black;
+  			text-align: center;
+  			padding: 12px;
+  			text-decoration: none;
+  			font-size: 18px;
+  			position: relative;
+  		}
+
+		.first-header {
+			border-bottom: 1px solid #ccc;
+ 
+		}
+		.site-nav{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 28px 0;
+		}
+		.site-nav img{
+			width = 25px;
+			height: 80px;
+		}
+		#image-header img{
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			height: 100%;
+		}
+		.content{
+			top: 50%;
+			left: 50%;
+			position: absolute;
+			width: 96%;
+			text-align: center;
+			transform: translate(-50%,-50%);
+			color: #fff;
+			max-width: 900px;
+		}
+		.content h1{
+			font-size: 70px;
+			font-weight: 600;
+			color: white;
+			text-decoration: none;
+		}
+		.content p{
+			color: white;
+			font-size: 16px;
+		}
+		.content button{
+			color: #fff;
+			width: 23%;
+			height: 50px;
+			background-color: red;
+			border: none;
+			font-size: 16px;
+		}
